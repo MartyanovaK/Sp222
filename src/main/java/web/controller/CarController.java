@@ -9,9 +9,9 @@ import java.util.List;
 
 @Controller
 public class CarController {
-    private final CarServiceImpl serviceCar;
+    private final CarService serviceCar;
 
-    public CarController(CarServiceImpl serviceCar) {
+    public CarController(CarService serviceCar) {
         this.serviceCar = serviceCar;
     }
 
